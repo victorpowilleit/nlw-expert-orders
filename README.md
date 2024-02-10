@@ -5,20 +5,16 @@
 
 
 <h3 style="text-align: center">
-<a href="#pt-br">
-Ler em [PT-BR]
-</a>
-||
-<a href="#us-en">
-Read in [US-EN]
+
+[Ler em [PT-BR]](#pt-br) || [Read in [US-EN]](#us-en)
 </a>
 </h3>
 <hr>
 <!-- SUMMARY DIV -->
-<div class="summary">
+<div id="pt-br">
 
 <!-- CONTENT DIV PT-BR -->
-<div class="pt-br" style="flex: 1; padding-right: 1rem">
+<div style="flex: 1; padding-right: 1rem">
 <h2>Resumo</h2>
 <hr>
 <p style="text-align: justify">
@@ -61,7 +57,7 @@ pronto para envio.
 <!-- END OF SUMMARY DIV -->
 
 <!-- DEV INFO -->
-<div class="dev-info-br">
+<div>
 <h1>Pré-requisitos</h1><hr>
 Antes de iniciar, certifique-se de ter instalado em sua máquina:
 <ul>
@@ -119,7 +115,7 @@ Feito por [Victor Powilleit](https://github.com/victorpowilleit) no evento NLW.
 
 
 
-
+# ----------------US-EN------------------
 
 
 
@@ -128,10 +124,10 @@ Feito por [Victor Powilleit](https://github.com/victorpowilleit) no evento NLW.
 
 
 <!-- SUMMARY DIV -->
-<div class="summary">
+<div id="us-en" class="summary">
 
 <!-- CONTENT DIV US-EN -->
-<div class="us-en" style="flex: 1; padding-right: 1rem">
+<div style="flex: 1; padding-right: 1rem">
 <h2>Summary</h2>
 <hr>
 <p style="text-align: justify">
@@ -165,7 +161,7 @@ ready to be sent.
 
 <!-- IMG DIV  -->
 <div style="width: 300px; padding-top: 2rem">
-<img src="./reame-assets/img.png"></img>
+<img width="300px" src="./reame-assets/img.png"></img>
 </div>
 <!-- END IMG DIV  -->
 
@@ -173,7 +169,7 @@ ready to be sent.
 <!-- END OF SUMMARY DIV -->
 
 <!-- DEV INFO EN_US -->
-<div class="dev-info-us">
+<div>
 <h1>Prerequisites</h1><hr>
 Before starting, make sure you have installed on your machine:
 <ul>
