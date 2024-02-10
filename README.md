@@ -6,17 +6,17 @@
 
 <h3 style="text-align: center">
 
-[Ler em [PT-BR]](#pt-br) || [Read in [US-EN]](#us-en)
+[Ler em [PT-BR]](#pt-br) || [Read in [US-EN]](#us-en)<hr>
 </a>
 </h3>
-<hr>
+
 <!-- SUMMARY DIV -->
 <div id="pt-br">
 
 <!-- CONTENT DIV PT-BR -->
 <div style="flex: 1; padding-right: 1rem">
 <h2>Resumo</h2>
-<hr>
+
 <p style="text-align: justify">
 App de lanches no estilo Ifood onde é possível escolher
 no cardápio e enviar o pedido por whatsapp. Inclui
@@ -24,7 +24,7 @@ carrinho de compras, possibilitando revisar o pedido,
 excluir e adicionar itens.
 </p>
 <h2>Características</h2>
-<hr>
+
 <ul>
 <li><b>Interface Elaborada</b> com foco na Experiência
 do Usuário.</li>
@@ -33,7 +33,7 @@ pedidos.</li>
 <li><b>Envio de Dados</b> do pedido por WhatsApp.</li>
 </ul>
 <h2>Como Funciona</h2>
-<hr>
+
 <p style="text-align: justify">
 O usuário acessa o aplicativo, selciona seus pedidos
 no menu interativo e os adiciona em seu carrinho de
@@ -58,13 +58,13 @@ pronto para envio.
 
 <!-- DEV INFO -->
 <div>
-<h1>Pré-requisitos</h1><hr>
+<h1>Pré-requisitos</h1>
 Antes de iniciar, certifique-se de ter instalado em sua máquina:
 <ul>
 <li>Node.js (Versão 20.11 ou superior)</li>
 <li>NPM ou Yarn</li>
 </ul>
-<h2>Configuração Local</h2><hr>
+<h2>Configuração Local</h2>
 Para configurar este projeto localmente, siga estas etapas:
 <ol>
 <li>Clone o repositório:</li>
@@ -112,12 +112,11 @@ Feito por [Victor Powilleit](https://github.com/victorpowilleit) no evento NLW.
 
 
 
-
-
+<hr>
 
 # ----------------US-EN------------------
 
-
+<hr>
 
 
 
@@ -129,7 +128,7 @@ Feito por [Victor Powilleit](https://github.com/victorpowilleit) no evento NLW.
 <!-- CONTENT DIV US-EN -->
 <div style="flex: 1; padding-right: 1rem">
 <h2>Summary</h2>
-<hr>
+
 <p style="text-align: justify">
 Ifood-style snack app where you can choose
 from the menu and send the order via WhatsApp. Includes
@@ -137,7 +136,7 @@ shopping cart, allowing to review the order,
 delete and add items.
 </p>
 <h2>Features</h2>
-<hr>
+
 <ul>
 <li><b>Sophisticated Interface</b> focused on User
 Experience.</li>
@@ -145,7 +144,7 @@ Experience.</li>
 <li><b>Data Sending</b> of the order via WhatsApp.</li>
 </ul>
 <h2>How It Works</h2>
-<hr>
+
 <p style="text-align: justify">
 The user accesses the app, selects their orders
 from the interactive menu and adds them to their shopping
@@ -170,13 +169,13 @@ ready to be sent.
 
 <!-- DEV INFO EN_US -->
 <div>
-<h1>Prerequisites</h1><hr>
+<h1>Prerequisites</h1>
 Before starting, make sure you have installed on your machine:
 <ul>
 <li>Node.js (Version 20.11 or higher)</li>
 <li>NPM ou Yarn</li>
 </ul>
-<h2>Local Setup</h2><hr>
+<h2>Local Setup</h2>
 To set up this project locally, follow these steps:
 <ol>
 <li>Clone the repository:</li>
@@ -195,7 +194,7 @@ cd nlw-expert-order
 npm install
 ```
 </ol>
-<h2>Running the Project</h2><hr>
+<h2>Running the Project</h2>
 <ol>
 <li>Start project emulation:</li>
 
