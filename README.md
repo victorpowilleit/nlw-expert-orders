@@ -1,75 +1,17 @@
-<style>
-
-input{
-display: none;
-}
-
-label{
-color: #3355FF;
-cursor: pointer;
-}
-
-.center{
-text-align: center;
-}
-
-.container{
-width: 100%;
-/*background-color: #333;*/
-}
-
-.summary{
-display: flex;
-flex-direction: row;
-width: 100%;
-/*background-color: #222;*/
-}
-
-#pt-br-btn:checked ~ .container .pt-br {
-display: block;
-}
-#pt-br-btn:checked ~ .container .us-en {
-display: none;
-}
-#pt-br-btn:checked ~ .container .dev-info-br {
-display: block;
-}
-#pt-br-btn:checked ~ .container .dev-info-us {
-display: none;
-}
-
-#us-en-btn:checked ~ .container .pt-br {
-display: none;
-}
-#us-en-btn:checked ~ .container .us-en {
-display: block;
-}
-#us-en-btn:checked ~ .container .dev-info-br {
-display: none;
-}
-#us-en-btn:checked ~ .container .dev-info-us {
-display: block;
-}
-
-</style>
-
-<input type="radio" id="pt-br-btn" name="lang" checked>
-<input type="radio" id="us-en-btn" name="lang">
-
 <!-- CONTAINER -->
-<div class="container">
+<div style="display:flex;">
 <img src="./src/assets/logo.png"/>
 <h1>ORDERS APP</h1>
 
 
 <h3 style="text-align: center">
-<label for="pt-br-btn">
+<a href="#pt-br">
 Ler em [PT-BR]
-</label>
+</a>
 ||
-<label for="us-en-btn">
+<a href="#us-en">
 Read in [US-EN]
-</label>
+</a>
 </h3>
 <hr>
 <!-- SUMMARY DIV -->
@@ -109,42 +51,9 @@ pronto para envio.
 </div>
 <!-- END CONTENT DIV PT-BR -->
 
-<!-- CONTENT DIV US-EN -->
-<div class="us-en" style="flex: 1; padding-right: 1rem">
-<h2>Summary</h2>
-<hr>
-<p style="text-align: justify">
-Ifood-style snack app where you can choose
-from the menu and send the order via WhatsApp. Includes
-shopping cart, allowing to review the order,
-delete and add items.
-</p>
-<h2>Features</h2>
-<hr>
-<ul>
-<li><b>Sophisticated Interface</b> focused on User
-Experience.</li>
-<li><b>Shopping Cart</b> for order management.</li>
-<li><b>Data Sending</b> of the order via WhatsApp.</li>
-</ul>
-<h2>How It Works</h2>
-<hr>
-<p style="text-align: justify">
-The user accesses the app, selects their orders
-from the interactive menu and adds them to their shopping
-cart.
-When the order is complete, the user can
-finalize it by clicking on "send order" and entering
-the delivery address, which will take them to the messaging
-app WhatsApp with the prompt of their order
-ready to be sent.
-</p>
-</div>
-<!-- END CONTENT DIV US-EN  -->
-
 <!-- IMG DIV  -->
 <div style="width: 300px; padding-top: 2rem">
-<img src="./reame-assets/img.png"></img>
+<img width="300px" src="./reame-assets/img.png"></img>
 </div>
 <!-- END IMG DIV  -->
 
@@ -204,6 +113,65 @@ Feito por [Victor Powilleit](https://github.com/victorpowilleit) no evento NLW.
 </div>
 <!-- END OF DEV INFO -->
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- SUMMARY DIV -->
+<div class="summary">
+
+<!-- CONTENT DIV US-EN -->
+<div class="us-en" style="flex: 1; padding-right: 1rem">
+<h2>Summary</h2>
+<hr>
+<p style="text-align: justify">
+Ifood-style snack app where you can choose
+from the menu and send the order via WhatsApp. Includes
+shopping cart, allowing to review the order,
+delete and add items.
+</p>
+<h2>Features</h2>
+<hr>
+<ul>
+<li><b>Sophisticated Interface</b> focused on User
+Experience.</li>
+<li><b>Shopping Cart</b> for order management.</li>
+<li><b>Data Sending</b> of the order via WhatsApp.</li>
+</ul>
+<h2>How It Works</h2>
+<hr>
+<p style="text-align: justify">
+The user accesses the app, selects their orders
+from the interactive menu and adds them to their shopping
+cart.
+When the order is complete, the user can
+finalize it by clicking on "send order" and entering
+the delivery address, which will take them to the messaging
+app WhatsApp with the prompt of their order
+ready to be sent.
+</p>
+</div>
+<!-- END CONTENT DIV US-EN  -->
+
+<!-- IMG DIV  -->
+<div style="width: 300px; padding-top: 2rem">
+<img src="./reame-assets/img.png"></img>
+</div>
+<!-- END IMG DIV  -->
+
+</div>
+<!-- END OF SUMMARY DIV -->
+
 <!-- DEV INFO EN_US -->
 <div class="dev-info-us">
 <h1>Prerequisites</h1><hr>
@@ -257,6 +225,16 @@ To contribute:
 Created by [Victor Powilleit](https://github.com/victorpowilleit) at the NLW event.
 </div>
 <!-- END OF DEV INFO -->
+
+
+
+
+
+
+
+
+
+
 
 <!-- END OF CONTAINER -->
 </div>
